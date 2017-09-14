@@ -2,6 +2,7 @@ body {
   font-family: monospace;
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 
 #topbar {
@@ -18,6 +19,11 @@ body {
 
 }
 
+.btn-container:after{
+  content: "";
+  clear: both;
+  display: block;
+}
 .btn {
   float: left;
   border: 1px solid white;
@@ -42,10 +48,31 @@ body {
 
 
 #logo {
-  height: 100%;
   font-size: 20px;
   font-weight: bold;
   padding: 20px;
   margin-right: 50px;
   float: left;
+}
+
+#bodyContainer {
+  height: 700px;
+  margin-top: 15px;
+
+}
+
+textarea {
+  font-family: monospace;
+  font-size: 14px;
+  max-width: 50%;
+  min-width: 49%;
+  margin-left: 20px;
+  height: 700px;
+  resize: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+iframe {
+  height: 718px;
 }
