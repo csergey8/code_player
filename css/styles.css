@@ -5,7 +5,7 @@ body {
 }
 
 #topbar {
-  background-color: dimgray;
+  background-color: #cacdd0;
   height: 60px;
   box-shadow: 2px 3px;
 }
@@ -20,14 +20,26 @@ body {
 
 .btn {
   float: left;
-  border: 1px solid grey;
+  border: 1px solid white;
   padding: 7px;
   margin-top: 10px;
-  border-radius: 12px;
+  border-radius: 4px;
   margin-left: 10px;
-  background-color: lightgray;
-
+  background-color: #eef1f3;
+  color: #303535;
+  font-weight: 400;
+  font-size: 14px;
 }
+
+.btn-highlight {
+  background-color: white;
+}
+
+.active {
+  background-color: #B1DBF6;
+}
+
+
 
 #logo {
   height: 100%;

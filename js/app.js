@@ -2,8 +2,17 @@
 
   $('.btn').hover(function(){
 
-    $(this).css("background-color", "white");
+    $(this).addClass("btn-highlight");
+  }, function() {
+    $(this).removeClass("btn-highlight");
   });
+
+  $('.btn').click(function(){
+    $(this).toggleClass("active");
+  });
+
+
+
 
 
 
